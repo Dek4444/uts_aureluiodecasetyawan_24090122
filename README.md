@@ -3,14 +3,17 @@ NIM : 24090122
 EMAIL : deka19@gmail.com
 LINK GITHUB REPOSITORY : https://github.com/Dek4444/uts_aureluiodecasetyawan_24090122
 LINK GITHUB PAGES : https://dek4444.github.io/uts_aureluiodecasetyawan_24090122/
+
+
 DESKRIPSI :
+
     LOGIN, Halaman Login berfungsi untuk memvalidasi email dan password pengguna sebelum masuk ke sistem. Jika kedua input terisi, pengguna diarahkan ke halaman Dashboard. Jika ada yang kosong, sistem menampilkan pesan error.
     Fungsi initLoginPage(): 
      - Mengambil form login
      - Cek apakah email & password kosong
      - Jika terisi → tampilkan alert “Login berhasil!” dan pindah ke dashboard
     Fokusnya hanya validasi sederhana dan redirect.
-
+    
     DASHBOARD, Halaman Dashboard berfungsi untuk menampilkan ringkasan data sistem, yaitu total produk, total penjualan, dan total pendapatan. Data ditampilkan dalam bentuk card dan diambil dari script JavaScript. Dashboard juga menyediakan tombol untuk menuju halaman daftar produk.
     Fungsi initDashboardPage():
      - Mengambil elemen yang menampilkan total produk, penjualan, dan pendapatan
@@ -26,4 +29,5 @@ DESKRIPSI :
      - Delete → hapus baris setelah konfirmasi
 
     Ini inti dari halaman product untuk menampilkan daftar barang.
+
 
